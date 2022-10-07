@@ -4,6 +4,13 @@ public class SmartTv {
   int volume = 25;
 
   //metodos de manipulação
+  public void aumentarVolume() {
+    volume++;
+  }
+  public void diminuirVolume() {
+    volume--;
+  }
+
   public void ligar() {
     ligada = true;
   }

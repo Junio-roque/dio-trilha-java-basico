@@ -13,5 +13,22 @@ public class Usuario {
         System.out.println("Tv está desligada");
         smartTv.desligar();
         System.out.println("Teve desligada "+ smartTv.ligada);
+
+        System.out.println("Vou diminuir volume");
+        System.out.println("O volume estava em: ");
+        System.out.println(smartTv.volume);
+        System.out.println("E agora diminuir: ");
+        smartTv.diminuirVolume();;
+        smartTv.diminuirVolume();;
+        smartTv.diminuirVolume();
+        System.out.println(smartTv.volume);
+
+        System.out.println("Vou aumentar o Volume: ");
+        smartTv.aumentarVolume();
+        smartTv.aumentarVolume();
+        smartTv.aumentarVolume();
+        smartTv.aumentarVolume();
+        smartTv.aumentarVolume();
+        System.out.println(smartTv.volume);
     }
 }
