@@ -30,5 +30,10 @@ public class Usuario {
         smartTv.aumentarVolume();
         smartTv.aumentarVolume();
         System.out.println(smartTv.volume);
+
+        System.out.println("Vou mudar de canal, esse era o que tava: " +smartTv.canal);
+        smartTv.mudarCanal(25);
+        System.out.println("Mudei agora: ");
+        System.out.println(smartTv.canal);
     }
 }
